@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -57,16 +57,37 @@
 </layers>
 <library>
 <packages>
+<package name="TO-220">
+<pad name="VO" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="VI" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="ADJ" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+</package>
 </packages>
 <symbols>
+<symbol name="LM317">
+<description>LM317 adjustable voltage regulator</description>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="VO" x="-10.16" y="0" length="middle" direction="pwr"/>
+<pin name="VI" x="10.16" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="ADJ" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM317">
 <description>adjustable level shifter</description>
 <gates>
+<gate name="G$1" symbol="LM317" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="ADJ"/>
+<connect gate="G$1" pin="VI" pad="VI"/>
+<connect gate="G$1" pin="VO" pad="VO"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
