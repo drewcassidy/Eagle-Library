@@ -3,6 +3,7 @@ Eagle-Library
 Library of various eagle components. feel free to pull request!
 
 ######Consistencey Rules
+
 - do not modify the settings
  - .1" line grids
  - .01" subgrid
@@ -14,9 +15,9 @@ Library of various eagle components. feel free to pull request!
 ---------------
 ######Licensing
 
-Licensed under the [Creative Commons ShareAlike 4.0 International][1]
+Licensed under the [Creative Commons ShareAlike 4.0 International][1].
 
-Some parts reused from the [Sparkfun Eagle Libraries][2]
+Some parts reused from the [Sparkfun Eagle Libraries][2].
 
 [1]: https://creativecommons.org/licenses/by-sa/4.0/
 [2]: https://github.com/sparkfun/SparkFun-Eagle-Libraries
