@@ -73,6 +73,8 @@
 <pin name="VO" x="-10.16" y="0" length="middle" direction="pwr"/>
 <pin name="VI" x="10.16" y="0" length="middle" direction="pwr" rot="R180"/>
 <pin name="ADJ" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-5.08" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.286" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
