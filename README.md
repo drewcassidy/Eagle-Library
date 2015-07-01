@@ -2,7 +2,7 @@ Eagle-Library
 =============
 Library of various eagle components. feel free to pull request!
 
-######Consistancey Rules
+######Consistencey Rules
 - do not modify the settings
  - .1" line grids
  - .01" subgrid
