@@ -58,9 +58,9 @@
 <library>
 <packages>
 <package name="TO-220">
-<pad name="P2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="P3" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="P1" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -86,9 +86,9 @@
 <devices>
 <device name="" package="TO-220">
 <connects>
-<connect gate="G$1" pin="ADJ" pad="P1"/>
-<connect gate="G$1" pin="VI" pad="P3"/>
-<connect gate="G$1" pin="VO" pad="P2"/>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="VI" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
