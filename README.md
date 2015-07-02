@@ -4,6 +4,7 @@ Library of various eagle components. feel free to pull request!
 
 ######Consistencey Rules
 
+- use the latest version (7.3.0)
 - do not modify the settings
  - .1" line grids
  - .01" subgrid
