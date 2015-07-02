@@ -6,7 +6,7 @@ Library of various eagle components. feel free to pull request!
 
 - use the latest version (7.3.0)
 - do not modify the settings
- - .1" line grids
+ - .05" line grids
  - .01" subgrid
  - you can modify these temporarily, but do not commit the `<settings>`, `<layer/>` or `<grid/>` block of any files
 - Device names for sepcific parts should be the name of the IC eg. `LM317` or `TXB0104`
