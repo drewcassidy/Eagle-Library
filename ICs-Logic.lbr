@@ -210,7 +210,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74HC240">
+<deviceset name="74HC240" prefix="U">
 <description>74HC240 Ocatal buffer/Line driver,
 3 State inverting</description>
 <gates>

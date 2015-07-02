@@ -200,7 +200,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM317">
+<deviceset name="LM317" prefix="U">
 <description>adjustable level shifter</description>
 <gates>
 <gate name="G$1" symbol="LM317" x="0" y="0"/>
@@ -218,7 +218,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT3484">
+<deviceset name="LT3484" prefix="U">
 <gates>
 <gate name="G$1" symbol="LT3484" x="0" y="-5.08"/>
 </gates>

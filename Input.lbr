@@ -171,7 +171,7 @@ B3F-40XX, B3F-50XX</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SPST-PUSHBUTTON">
+<deviceset name="SPST-PUSHBUTTON" prefix="S">
 <gates>
 <gate name="G$1" symbol="SPST-PUSHBUTTON" x="0" y="0"/>
 </gates>

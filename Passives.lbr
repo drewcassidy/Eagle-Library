@@ -178,7 +178,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EPC3205G-1A">
+<deviceset name="TRANSFORMER" prefix="X">
 <description>camera flash flyback transformer</description>
 <gates>
 <gate name="G$1" symbol="TRANSFORMER-4PIN" x="0" y="0"/>
