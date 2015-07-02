@@ -352,7 +352,7 @@
 </deviceset>
 <deviceset name="LT3484">
 <gates>
-<gate name="G$1" symbol="LT3484" x="-7.62" y="-5.08"/>
+<gate name="G$1" symbol="LT3484" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="LT3484">
