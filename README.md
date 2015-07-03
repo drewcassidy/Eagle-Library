@@ -7,8 +7,9 @@ Library of various eagle components. feel free to pull request!
 - use the latest version (7.3.0)
 - do not modify the settings
  - .05" line grids
- - .01" subgrid
+ - .005" subgrid
  - you can modify these temporarily, but do not commit the `<settings>`, `<layer/>` or `<grid/>` block of any files
+ - use the included config.scr to change all settings back to these defaults. you can also use it as your /scr/Eagle.scr file
 - Device names for sepcific parts should be the name of the IC eg. `LM317` or `TXB0104`
 - Device names for generic parts should be simple eg. `resistor` or `ceramic capacitor`
 - Footprints should be the name of the footprint eg. `SOIC-8` or `PTH .4` (for a .4 inch separated PTH resistor)
