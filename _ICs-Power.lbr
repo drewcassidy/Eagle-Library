@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -146,32 +146,32 @@
 <text x="3.81" y="-1.905" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 </package>
 <package name="DIP10">
-<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="3.81" x2="15.24" y2="3.81" width="0.127" layer="21"/>
 <wire x1="15.24" y1="3.81" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="15.24" y1="-1.27" x2="-10.16" y2="-1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-8.89" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$2" x="-6.35" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$3" x="-3.81" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$4" x="-1.27" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$5" x="1.27" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$6" x="3.81" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$7" x="6.35" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$8" x="-8.89" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$9" x="-6.35" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$10" x="-3.81" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$11" x="-1.27" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$12" x="1.27" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$13" x="3.81" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$14" x="6.35" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$15" x="8.89" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$16" x="11.43" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$17" x="13.97" y="5.08" drill="0.8" shape="octagon"/>
-<pad name="P$18" x="8.89" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$19" x="11.43" y="-2.54" drill="0.8" shape="octagon"/>
-<pad name="P$20" x="13.97" y="-2.54" drill="0.8" shape="octagon"/>
-<circle x="-9.144" y="1.27" radius="0.567959375" width="0.127" layer="21"/>
-<text x="-7.62" y="1.27" size="1.27" layer="21">74HC240</text>
+<pad name="P$1" x="-8.89" y="5.08" drill="0.8"/>
+<pad name="P$2" x="-6.35" y="5.08" drill="0.8"/>
+<pad name="P$3" x="-3.81" y="5.08" drill="0.8"/>
+<pad name="P$4" x="-1.27" y="5.08" drill="0.8"/>
+<pad name="P$5" x="1.27" y="5.08" drill="0.8"/>
+<pad name="P$6" x="3.81" y="5.08" drill="0.8"/>
+<pad name="P$7" x="6.35" y="5.08" drill="0.8"/>
+<pad name="P$8" x="-8.89" y="-2.54" drill="0.8"/>
+<pad name="P$9" x="-6.35" y="-2.54" drill="0.8"/>
+<pad name="P$10" x="-3.81" y="-2.54" drill="0.8"/>
+<pad name="P$11" x="-1.27" y="-2.54" drill="0.8"/>
+<pad name="P$12" x="1.27" y="-2.54" drill="0.8"/>
+<pad name="P$13" x="3.81" y="-2.54" drill="0.8"/>
+<pad name="P$14" x="6.35" y="-2.54" drill="0.8"/>
+<pad name="P$15" x="8.89" y="5.08" drill="0.8"/>
+<pad name="P$16" x="11.43" y="5.08" drill="0.8"/>
+<pad name="P$17" x="13.97" y="5.08" drill="0.8"/>
+<pad name="P$18" x="8.89" y="-2.54" drill="0.8"/>
+<pad name="P$19" x="11.43" y="-2.54" drill="0.8"/>
+<pad name="P$20" x="13.97" y="-2.54" drill="0.8"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="0.635" x2="-10.16" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="1.905" x2="-10.16" y2="0.635" width="0.127" layer="21" curve="-180"/>
 </package>
 <package name="EPC3205G-1A">
 <smd name="1" x="-3.175" y="3.175" dx="3.048" dy="3.556" layer="1" roundness="50" rot="R45"/>
